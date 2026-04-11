@@ -12,6 +12,12 @@
         <meta content="initial-scale=1, maximum-scale=1" name="viewport">
         <title>{{ _('Colour Naming') }}</title>
         {% block css %}{% endblock %}
+		<!-- Privacy-friendly analytics by Plausible -->
+		<script async src="https://plausible.io/js/pa-gpFsoAOa6yL9sj7gmPGER.js"></script>
+		<script>
+			window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+			plausible.init()
+		</script>
     </head>
     <body data-spy="scroll" data-target="navigation-bar" {% if rtl %}style="direction: rtl"{% endif %}>
         {% block content %}{% endblock %}
