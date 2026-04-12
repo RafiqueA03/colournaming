@@ -359,7 +359,7 @@ msgstr "Confirm how many steps you can see?"
 
 #: colournaming/templates/index.html:20 colournaming/templates/index.html:48
 msgid "Colour namer"
-msgstr "Colour namer"
+msgstr "Colour Namer"
 
 #: colournaming/templates/index.html:23 colournaming/templates/index.html:99
 msgid "Research"
